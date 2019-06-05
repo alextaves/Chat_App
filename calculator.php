@@ -29,7 +29,7 @@ include("calculator_controller.php");
     </form><br>
 
     <form action="<?= $_SERVER['PHP_SELF'] ?>" method="POST">
-        <input type="text" name="number1" value="<?= $number1 ?>">
+        <input type="text" name="number1" value="">
         <input type="submit" name="add" value="+">
     </form><br>
 
