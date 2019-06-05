@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "root";
+$username = "alextaves";
 $password = "";
 
 // Create connection
@@ -15,7 +15,7 @@ echo "<hr />";
 
 
 // Create database
-$sql = "CREATE DATABASE calc_db";
+$sql = "CREATE DATABASE chat_db";
 if ($conn->query($sql) === TRUE) {
     echo "Database created successfully";
 } else {
@@ -31,9 +31,9 @@ $conn->close();
 ?>
 <?php
 $servername = "localhost";
-$username = "root";
+$username = "alextaves";
 $password = "";
-$dbname = "calc_db";
+$dbname = "chat_db";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

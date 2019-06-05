@@ -4,9 +4,9 @@ function CalcDB_Connect() {
     global $conn;
     
     $servername = "localhost";
-    $username = "root";
+    $username = "alextaves";
     $password = "";
-    $dbname = "calc_db";
+    $dbname = "chat_db";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
